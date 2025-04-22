@@ -1,0 +1,58 @@
+.Page {
+  text-align: center;
+}
+
+.Page-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Page-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Ensure the image is behind other content */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Page-logo {
+    animation: Page-logo-spin infinite 20s linear;
+  }
+}
+
+.Page-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  background-image: url('../assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Page-link {
+  color: #61dafb;
+}
+
+@keyframes Page-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

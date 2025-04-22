@@ -1,0 +1,18 @@
+.widget-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .widget-label {
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  .widget-field {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  

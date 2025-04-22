@@ -1,0 +1,41 @@
+.login-box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box p {
+    margin: 0 0 12px 0;
+    color: #000;
+    font-family: serif;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background: #5624be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

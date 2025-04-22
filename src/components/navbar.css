@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #28326d;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.navbar .logo img {
+    height: 30px;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-actions img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.navbar-actions .logout {
+    justify-content: space-between;
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.navbar-actions .logout svg {
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.navbar-actions .user-profile span,
+.navbar-actions .logout span {
+    margin-left: 8px;
+}
+
+.navbar-actions .user-profile:hover,
+.navbar-actions .logout:hover {
+    opacity: 0.8;
+}
